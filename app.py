@@ -10,7 +10,7 @@ st.title("📊 Data Visualization Dashboard Project")
 st.markdown("An interactive exploratory web application to analyze data insights dynamically.")
 st.markdown("---")
 
-DATA_FOLDER = "data/"
+DATA_FOLDER = "."
 files = [f for f in os.listdir(DATA_FOLDER) if f.endswith('.csv')]
 
 if not files:
